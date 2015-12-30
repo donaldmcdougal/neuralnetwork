@@ -1,12 +1,74 @@
-*.class
+######################
+# Eclipse
+######################
+*.pydevproject
+.project
+.metadata
+/bin/**
+/tmp/**
+/tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/**
+.loadpath
+/src/main/resources/rebel.xml
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Locally stored "Eclipse launch configurations"
+*.launch
 
-# Package Files #
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+######################
+# Maven
+######################
+/log/**
+/target/**
+
+######################
+# Package Files
+######################
 *.jar
 *.war
 *.ear
+*.db
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Directories
+######################
+/build/**
+/bin/**
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Maven Wrapper
+######################
+!.mvn/wrapper/maven-wrapper.jar

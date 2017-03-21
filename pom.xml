@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.3.1.RELEASE</version>
+		<version>1.5.2.RELEASE</version>
 	</parent>
 	<groupId>com.donaldmcdougal.ai</groupId>
 	<artifactId>neuralnetwork</artifactId>
@@ -15,7 +15,7 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<guava.version>19.0</guava.version>
+		<guava.version>21.0</guava.version>
 		<encog.version>3.3.0</encog.version>
 	</properties>
 	<dependencies>

@@ -15,8 +15,8 @@
 		<java.version>1.8</java.version>
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<maven.compiler.target>${java.version}</maven.compiler.target>
-		<guava.version>21.0</guava.version>
-		<encog.version>3.3.0</encog.version>
+		<guava.version>26.0-jre</guava.version>
+		<encog.version>3.4</encog.version>
 	</properties>
 	<dependencies>
 		<dependency>
